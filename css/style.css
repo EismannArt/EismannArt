@@ -615,6 +615,13 @@ footer .right-side .footer-list .footer-list-item p a {
     grid-template-columns: unset !important;
     grid-template-rows: unset !important;
   }
+
+  .aboutme .section-aboutme { order: 1; }
+  .aboutme .portrait-image-grid.right-image { order: 2; }
+  .aboutme .section-vita.left { order: 3; }
+  .aboutme .section-vita.middle { order: 4; }
+  .aboutme .portrait-image-grid.left-image { order: 5; }
+
   .aboutme > * {
     width: 100%;
     margin: 0;
