@@ -601,6 +601,9 @@ footer .right-side .footer-list .footer-list-item p a {
   font-style: italic;
 }
 @media only screen and (max-width: 600px) {
+   main {
+    padding-top: 7rem;
+  }
   .aboutme {
     display: flex !important;;
     flex-direction: column;
